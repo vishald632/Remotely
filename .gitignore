@@ -321,3 +321,16 @@ obj/
 *.7z
 *.tgz
 Thumbs.db
+# .NET
+bin/
+obj/
+.vs/
+
+# Rider/other IDEs
+.idea/
+
+# Publish & local artifacts (don’t commit compiled builds)
+publish-linux/
+artifacts/
+Server/wwwroot/Downloads/
+AppData/
